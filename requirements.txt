@@ -75,9 +75,6 @@ huggingface-hub==0.26.0
 idna==3.7
 imageio==2.36.0
 importlib_metadata==8.5.0
-ipykernel==6.15.1
-ipython==8.4.0
-ipywidgets==8.1.5
 isoduration==20.11.0
 jedi==0.18.1
 Jinja2==3.1.4
