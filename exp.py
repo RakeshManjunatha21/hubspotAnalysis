@@ -127,6 +127,7 @@ if uploaded_file:
     Streamlit st.sidebar to filter/select column or analysis type dynamically
     
     Uses Streamlit's layout features (columns, expander, tabs) for clear, business-friendly presentation
+    Don't add set_page_config() in the code
     """
 
     st.subheader("🤖 Generating Code...")
