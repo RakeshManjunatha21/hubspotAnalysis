@@ -18,7 +18,7 @@ def extract_code(response_text):
 
 # Streamlit UI
 st.set_page_config(page_title="Smart Excel Analyzer", layout="wide")
-st.title("Hubspot Data Analysis!!")
+st.title("Hubspot Data Analysis!!!")
 
 uploaded_file = st.file_uploader("Upload an Excel File", type=["xlsx"])
 
