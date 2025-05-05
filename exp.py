@@ -36,15 +36,14 @@ if uploaded_file:
     prompt = f"""
     I have uploaded an Excel file with the following columns and data types:
     {column_info}
-     
+
     Generate Python code using pandas, matplotlib, seaborn, and Streamlit to:
-    1. Clean the entire dataset, including handling missing (NaN) values.
-    2. Generate a comprehensive and intelligent summary for all columns (both categorical and numerical) — on a high level information needed for business people
-    3. Analyze each column's data and create the most appropriate visualization (give plotly visualization) dynamically. Choose the best-suited chart type for each column without applying fixed filters (e.g., for categorical data use bar or pie charts, for numerical data use histograms, line charts, or scatter plots as appropriate).
-    4. Ensure every column is processed and visualized.
-    5. Display the summary and visualizations clearly using Streamlit components in an organized layout.
-     
-    Make sure the code assumes a DataFrame named 'df' is already defined and uses no hard-coded filters.
+    1. Clean and summarize the data
+    2. Show meaningful insights and statistics
+    3. Provide visualizations (bar, line, pie, scatter, etc.)
+    4. Display results using Streamlit widgets
+
+    Make sure the code assumes a DataFrame named 'df' is already defined.
     """
 
     st.subheader("🤖 Generating Code...")
