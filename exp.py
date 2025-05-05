@@ -40,7 +40,7 @@ if uploaded_file:
     Generate Python code using pandas, matplotlib, seaborn, and Streamlit to:
     1. Clean and summarize the data
     2. Show meaningful insights and statistics
-    3. Provide visualizations (bar, line, pie, scatter, etc.)
+    3. Create comprehensive visualizations for all the columns in [column_info]. Use a variety of chart types (e.g., bar, line, pie, scatter) to cover all possible aspects and relationships between the data columns. Ensure the visualizations and insights are clear, informative, and well-labeled to support data understanding and decision-making.
     4. Display results using Streamlit widgets
 
     Make sure the code assumes a DataFrame named 'df' is already defined.
